@@ -1,0 +1,48 @@
+{
+  "name": "@aeolun/trpc-router-parser",
+  "version": "1.0.0",
+  "description": "Parses a tRPC router tree",
+  "type": "module",
+  "main": "lib/cjs/index.js",
+  "module": "lib/mjs/index.js",
+  "typings": "lib/mjs/src/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.json",
+    "check": "biome check .",
+    "release": "release-it",
+    "check:fix": "biome check . --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "types": "./lib/mjs/src/index.d.ts",
+      "import": "./lib/mjs/index.mjs",
+      "require": "./lib/cjs/index.js",
+      "default": "./lib/cjs/index.js"
+    }
+  },
+  "files": [
+    "lib/"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "peerDependencies": {
+    "@trpc/server": "^11.0.0-next-beta.264",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@trpc/server": "^11.0.0-next-beta.264",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.2",
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "zod-to-json-schema": "^3.23.5"
+  }
+}
