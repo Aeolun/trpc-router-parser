@@ -4,8 +4,8 @@
   "description": "Parses a tRPC router tree",
   "type": "module",
   "main": "lib/cjs/index.js",
-  "module": "lib/mjs/index.js",
-  "typings": "lib/mjs/src/index.d.ts",
+  "module": "lib/esm/index.js",
+  "typings": "lib/esm/index.d.ts",
   "scripts": {
     "test": "vitest",
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.json",
@@ -21,8 +21,8 @@
   "license": "ISC",
   "exports": {
     ".": {
-      "types": "./lib/mjs/src/index.d.ts",
-      "import": "./lib/mjs/index.mjs",
+      "types": "./lib/esm/index.d.ts",
+      "import": "./lib/esm/index.mjs",
       "require": "./lib/cjs/index.js",
       "default": "./lib/cjs/index.js"
     }
