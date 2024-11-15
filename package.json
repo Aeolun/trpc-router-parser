@@ -1,6 +1,6 @@
 {
   "name": "@aeolun/trpc-router-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parses a tRPC router tree",
   "type": "module",
   "main": "lib/cjs/index.js",
