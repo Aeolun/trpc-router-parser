@@ -12,7 +12,7 @@
     "check": "biome check src",
     "release": "release-it",
     "check:fix": "biome check src --write",
-    "prepare": "husky"
+    "prepare": "husky && ts-patch install -s"
   },
   "authors": [
     "Bart Riepe",
@@ -44,7 +44,9 @@
     "@types/node": "^22.9.0",
     "husky": "^9.1.6",
     "release-it": "^17.10.0",
+    "ts-patch": "^3.2.1",
     "typescript": "^5.6.3",
+    "typescript-transform-paths": "^3.5.2",
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.2",
     "vitest": "^2.1.5"
