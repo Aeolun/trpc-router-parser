@@ -1,4 +1,4 @@
-import { nodePropertiesFromRef } from "@src/utils";
+import { nodePropertiesFromRef } from "@src/utils.js";
 import { type AnyZodObject, ZodFirstPartyTypeKind } from "zod";
 import type {
 	DiscriminatedUnionNode,

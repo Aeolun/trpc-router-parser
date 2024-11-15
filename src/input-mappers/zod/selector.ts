@@ -1,13 +1,13 @@
-import { parseZodBigIntDef } from "@src/input-mappers/zod/parsers/parseZodBigIntDef";
-import { parseZodBrandedDef } from "@src/input-mappers/zod/parsers/parseZodBrandedDef";
-import { parseZodDefaultDef } from "@src/input-mappers/zod/parsers/parseZodDefaultDef";
-import { parseZodEffectsDef } from "@src/input-mappers/zod/parsers/parseZodEffectsDef";
-import { parseZodNullDef } from "@src/input-mappers/zod/parsers/parseZodNullDef";
-import { parseZodNullableDef } from "@src/input-mappers/zod/parsers/parseZodNullableDef";
-import { parseZodOptionalDef } from "@src/input-mappers/zod/parsers/parseZodOptionalDef";
-import { parseZodPromiseDef } from "@src/input-mappers/zod/parsers/parseZodPromiseDef";
-import { parseZodUndefinedDef } from "@src/input-mappers/zod/parsers/parseZodUndefinedDef";
-import { parseZodUnionDef } from "@src/input-mappers/zod/parsers/parseZodUnionDef";
+import { parseZodBigIntDef } from "@src/input-mappers/zod/parsers/parseZodBigIntDef.js";
+import { parseZodBrandedDef } from "@src/input-mappers/zod/parsers/parseZodBrandedDef.js";
+import { parseZodDefaultDef } from "@src/input-mappers/zod/parsers/parseZodDefaultDef.js";
+import { parseZodEffectsDef } from "@src/input-mappers/zod/parsers/parseZodEffectsDef.js";
+import { parseZodNullDef } from "@src/input-mappers/zod/parsers/parseZodNullDef.js";
+import { parseZodNullableDef } from "@src/input-mappers/zod/parsers/parseZodNullableDef.js";
+import { parseZodOptionalDef } from "@src/input-mappers/zod/parsers/parseZodOptionalDef.js";
+import { parseZodPromiseDef } from "@src/input-mappers/zod/parsers/parseZodPromiseDef.js";
+import { parseZodUndefinedDef } from "@src/input-mappers/zod/parsers/parseZodUndefinedDef.js";
+import { parseZodUnionDef } from "@src/input-mappers/zod/parsers/parseZodUnionDef.js";
 import {
 	type ZodArrayDef,
 	type ZodBigIntDef,

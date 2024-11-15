@@ -1,4 +1,4 @@
-import { nodePropertiesFromRef } from "@src/utils";
+import { nodePropertiesFromRef } from "@src/utils.js";
 import type { ZodArrayDef } from "zod";
 import type { ArrayNode, ParseFunction } from "../../../parseNodeTypes.js";
 import { zodSelectorFunction } from "../selector.js";

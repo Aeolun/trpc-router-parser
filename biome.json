@@ -1,24 +1,28 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"files": {
-		"include": ["./src/**/*"]
-	},
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "files": {
+    "include": ["./src/**/*"]
+  },
 
-	"linter": {
-		"rules": {
-			"correctness": {
-				"useImportExtensions": {
-					"level": "error",
-					"options": {
-						"suggestedExtensions": {
-							"ts": {
-								"module": "js",
-								"component": "jsx"
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+  "linter": {
+    "rules": {
+      "correctness": {
+        "useImportExtensions": {
+          "level": "error",
+          "options": {
+            "suggestedExtensions": {
+              "ts": {
+                "module": "js",
+                "component": "jsx"
+              },
+              "js": {
+                "module": "js",
+                "component": "jsx"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

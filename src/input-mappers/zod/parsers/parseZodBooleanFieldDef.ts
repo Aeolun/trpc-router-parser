@@ -1,4 +1,4 @@
-import { nodePropertiesFromRef } from "@src/utils";
+import { nodePropertiesFromRef } from "@src/utils.js";
 import type { ZodBooleanDef } from "zod";
 import type { BooleanNode, ParseFunction } from "../../../parseNodeTypes.js";
 

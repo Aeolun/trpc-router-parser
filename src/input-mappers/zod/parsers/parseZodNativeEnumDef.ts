@@ -1,4 +1,4 @@
-import { nodePropertiesFromRef } from "@src/utils";
+import { nodePropertiesFromRef } from "@src/utils.js";
 import type { ZodNativeEnumDef } from "zod";
 import type { EnumNode, ParseFunction } from "../../../parseNodeTypes.js";
 

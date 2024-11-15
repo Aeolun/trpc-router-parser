@@ -1,6 +1,6 @@
-import { defaultReferences } from "@src/input-mappers/defaultReferences";
-import { parseZodNativeEnumDef } from "@src/input-mappers/zod/parsers/parseZodNativeEnumDef";
-import type { EnumNode } from "@src/parseNodeTypes";
+import { defaultReferences } from "@src/input-mappers/defaultReferences.js";
+import { parseZodNativeEnumDef } from "@src/input-mappers/zod/parsers/parseZodNativeEnumDef.js";
+import type { EnumNode } from "@src/parseNodeTypes.js";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 

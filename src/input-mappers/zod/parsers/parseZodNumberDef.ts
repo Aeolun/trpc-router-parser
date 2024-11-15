@@ -1,4 +1,4 @@
-import { nodePropertiesFromRef } from "@src/utils";
+import { nodePropertiesFromRef } from "@src/utils.js";
 import type { ZodNumberDef } from "zod";
 import type { NumberNode, ParseFunction } from "../../../parseNodeTypes.js";
 

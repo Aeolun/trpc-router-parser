@@ -1,5 +1,5 @@
-import { zodSelectorFunction } from "@src/input-mappers/zod/selector";
-import type { ParseReferences, ParsedInputNode } from "@src/parseNodeTypes";
+import { zodSelectorFunction } from "@src/input-mappers/zod/selector.js";
+import type { ParseReferences, ParsedInputNode } from "@src/parseNodeTypes.js";
 import type { ZodDefaultDef } from "zod";
 
 export function parseZodDefaultDef(

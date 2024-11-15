@@ -10,7 +10,7 @@ import { type ParsedProcedure, parseProcedure } from "@src/parseProcedure.js";
 import type { Procedure } from "@src/routerType.js";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
-import zodToJsonSchema from "zod-to-json-schema";
+import { zodToJsonSchema } from "zod-to-json-schema";
 
 describe("Parse TRPC Procedure", () => {
 	it("should parse the test query", () => {

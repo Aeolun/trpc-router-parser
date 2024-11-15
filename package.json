@@ -9,9 +9,9 @@
   "scripts": {
     "test": "vitest",
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.json",
-    "check": "biome check .",
+    "check": "biome check src",
     "release": "release-it",
-    "check:fix": "biome check . --write",
+    "check:fix": "biome check src --write",
     "prepare": "husky"
   },
   "authors": [

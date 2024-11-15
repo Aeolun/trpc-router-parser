@@ -1,9 +1,9 @@
-import { defaultReferences } from "@src/input-mappers/defaultReferences";
+import { defaultReferences } from "@src/input-mappers/defaultReferences.js";
 import {
 	type ZodDiscriminatedUnionDefUnversioned,
 	parseZodDiscriminatedUnionDef,
-} from "@src/input-mappers/zod/parsers/parseZodDiscriminatedUnionDef";
-import type { DiscriminatedUnionNode } from "@src/parseNodeTypes";
+} from "@src/input-mappers/zod/parsers/parseZodDiscriminatedUnionDef.js";
+import type { DiscriminatedUnionNode } from "@src/parseNodeTypes.js";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 

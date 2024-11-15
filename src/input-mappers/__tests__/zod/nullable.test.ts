@@ -1,6 +1,6 @@
-import { defaultReferences } from "@src/input-mappers/defaultReferences";
-import { parseZodNullableDef } from "@src/input-mappers/zod/parsers/parseZodNullableDef";
-import type { NumberNode } from "@src/parseNodeTypes";
+import { defaultReferences } from "@src/input-mappers/defaultReferences.js";
+import { parseZodNullableDef } from "@src/input-mappers/zod/parsers/parseZodNullableDef.js";
+import type { NumberNode } from "@src/parseNodeTypes.js";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 

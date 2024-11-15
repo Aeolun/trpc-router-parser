@@ -1,5 +1,5 @@
-import type { ParseReferences, ParsedInputNode } from "@src/parseNodeTypes";
-import { nodePropertiesFromRef } from "@src/utils";
+import type { ParseReferences, ParsedInputNode } from "@src/parseNodeTypes.js";
+import { nodePropertiesFromRef } from "@src/utils.js";
 import type { ZodUndefinedDef } from "zod";
 
 export function parseZodUndefinedDef(
